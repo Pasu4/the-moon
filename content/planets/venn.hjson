@@ -1,0 +1,56 @@
+{
+    localizedName: Venn
+    parent: serpulo
+    alwaysUnlocked: true
+    accessible: true
+    hasAtmosphere: false
+    radius: 1
+    startSector: 0
+    orbitRadius: 3
+    sectorSize: 1
+    tidalLock: true
+    camRadius: 1
+    mesh: {
+        type: NoiseMesh
+        planet: venn
+        seed: 0
+        divisions: 4
+        color1: 999999
+        color2: c3c3c3
+        radius: 0.25
+        octaves: 3
+        persistence: 0.8
+        scale: 1
+        mag: 1.5
+    }
+    generator: PlanetGenerator
+    // generator: {
+    //     #amount of asteroids
+    //     min: 1
+    //     max: 1
+
+    //     #noise properties
+    //     octaves: 2
+    //     persistence: 0.4
+    //     scale: 30
+    //     mag: 0.4
+    //     thresh: 1
+    //     foct: 3
+    //     fmag: 0.5
+    //     fscl: 50
+    //     fper: 0.6
+
+    //     #asteroid radius
+    //     radMin: 120
+    //     radMax: 120
+
+    //     #this one is ABSOLUTELY pointless lmao
+    //     stoneChance: 0
+
+    //     #terrain generation chances, in order: ice > carbon > beryl > ferric
+    //     iceChance: 0
+    //     carbonChance: 0
+    //     berylChance: 0
+    //     ferricChance: 0
+    // }
+}

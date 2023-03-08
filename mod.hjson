@@ -1,0 +1,8 @@
+{
+    name: the-moon
+    displayName: The Moon
+    description: the moon
+    version: 0.1
+    minGameVersion: 142
+    hidden: false
+}
