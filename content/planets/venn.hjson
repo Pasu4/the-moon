@@ -5,18 +5,18 @@
     alwaysUnlocked: true
     accessible: true
     hasAtmosphere: false
-    radius: 1
+    radius: 0.3
     startSector: 0
     orbitRadius: 3
-    // sectorSize: 3
     tidalLock: true
-    camRadius: 1
+    camRadius: 0.2
+    // camRadius: 1
     mesh: {
         type: NoiseMesh
         planet: venn
         seed: 0
         divisions: 4
-        color1: 9999ff
+        color1: 999999
         color2: c3c3c3
         radius: 0.25
         octaves: 3
