@@ -1,13 +1,14 @@
 {
     localizedName: Venn
     parent: serpulo
+    solarSystem: sun
     alwaysUnlocked: true
     accessible: true
     hasAtmosphere: false
     radius: 1
     startSector: 0
     orbitRadius: 3
-    sectorSize: 1
+    // sectorSize: 3
     tidalLock: true
     camRadius: 1
     mesh: {
@@ -15,7 +16,7 @@
         planet: venn
         seed: 0
         divisions: 4
-        color1: 999999
+        color1: 9999ff
         color2: c3c3c3
         radius: 0.25
         octaves: 3

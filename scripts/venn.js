@@ -1,5 +1,14 @@
+const sectorSize = 3;
+
 Events.on(ContentInitEvent, () => {
-    // Vars.content.planet("the-moon-venn")
+    // let venn = Vars.content.planet("venn");
+    // venn.grid = PlanetGrid.create(sectorSize);
+    // venn.sectors.ensureCapacity(venn.grid.tiles.length);
+    // for(let i = 0; i < venn.grid.tiles.length; i++){
+    //     venn.sectors.add(new Sector(this, venn.grid.tiles[i]));
+    // }
+
+    // venn.sectorApproxRadius = venn.sectors.first().tile.v.dst(venn.sectors.first().tile.corners[0].v);
 });
 
 // Planets.serpulo.orbitSpacing = 3.0
