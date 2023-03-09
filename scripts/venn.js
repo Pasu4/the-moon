@@ -14,4 +14,3 @@ Events.on(ContentInitEvent, () => {
     venn.sectorApproxRadius = venn.sectors.first().tile.v.dst(venn.sectors.first().tile.corners[0].v);
     venn.generator = Planets.serpulo.generator; // DEBUG
 });
-// PR Test
