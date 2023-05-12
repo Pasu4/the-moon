@@ -3,7 +3,7 @@ const sectorSize = 0;
 Events.on(ContentInitEvent, () => {
     // Manually create grid because it can't be set in the content file
     // Code from the Planet constructor
-    let venn = Vars.content.planet("venn");
+    let venn = Vars.content.planet("the-moon-venn");
     venn.sectors.clear(); // Remove default single sector
     venn.grid = PlanetGrid.create(sectorSize);
     venn.sectors.ensureCapacity(venn.grid.tiles.length);
